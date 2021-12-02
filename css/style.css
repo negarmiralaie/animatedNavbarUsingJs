@@ -56,7 +56,13 @@ header nav a {
   text-decoration: none;
 }
 
-section {
+header nav .bubble {
+  position: absolute;
+}
+
+.home,
+.project,
+.contact {
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -69,7 +75,9 @@ section {
           align-items: center;
 }
 
-section h2 {
+.home h2,
+.project h2,
+.contact h2 {
   font-size: 5em;
   color: white;
 }
