@@ -1,4 +1,4 @@
-const sections = document.querySelectorAll('section');
+const sections = document.querySelectorAll('main section');
 const bubble = document.querySelector('.bubble');
 const gradients = [
   "linear-gradient(to right top, #f46b45, #eea849);",
@@ -37,6 +37,7 @@ function navCheck(entries){
             bubble.style.setProperty('top', `${directions.top}px`);
             bubble.style.setProperty('width', `${directions.width}px`);
             bubble.style.setProperty('height', `${directions.height}px`);
+            bubble.style.background = gradients[gradientIndex];
         }
     })
 }

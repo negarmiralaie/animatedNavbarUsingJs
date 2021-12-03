@@ -61,6 +61,8 @@ header nav .bubble {
   z-index: -2;
   background: -webkit-gradient(linear, left bottom, right top, from(#f46b45), to(#eea849));
   background: linear-gradient(to right top, #f46b45, #eea849);
+  -webkit-transform: scale(2);
+          transform: scale(2);
 }
 
 .home,
